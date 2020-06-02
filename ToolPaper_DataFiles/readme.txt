@@ -1,3 +1,4 @@
-* These folders provide supporting datasets for the manuscript "COW2NUTRIENT: An environmental GIS-based decision support tool for the assessment of nutrient recovery systems in livestock facilities".
-
-
+* These folders supply supporting datasets for the manuscript "COW2NUTRIENT: An environmental GIS-based decision support tool for the assessment of nutrient recovery systems in livestock facilities." 
+* The datasets are recorder as comma-separated values (.csv) and Microsoft Excell® (.xlsx) files. Column data entries have names and units. Some data are about animal facility population and location, amount of nutrient-rich waste generated (kg/yr), amount of nutrient recovered (kg P/yr), installing, capital, and maintenance costs (USD), technologies and their ranking and frequency of being selected for each combination of normalization-aggregation methods, average chlorophyll-a concentration in water in the watershed (ug/L), and average phosphorus concentration in water in the watershed (ug/L). 
+* The folder “Manuscript” has subfolders with datasets for creating manuscript Figures 4, 8, 9, and 10 as well as datasets for Tables 9 and 10. 
+* The folder “Supplementary Material” holds subfolders with datasets for creating Supplementary Material Figures 1-5, 8, 9, 11, and 12.   
