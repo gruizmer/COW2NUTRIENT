@@ -1,0 +1,2574 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>US Environmental Protection Agency</origin>
+				<pubdate>2003</pubdate>
+				<pubtime/>
+				<title>wsa_regions</title>
+				<edition/>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace/>
+					<publish/>
+				</pubinfo>
+				<othercit>revision of Omernik 1987</othercit>
+				<onlink>\\HW7D-PDZIEMIELA\D$\MARB_WSA\wsa_regions_nad83.gdb</onlink>
+				<ftname Sync="TRUE">narswsa</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+
+The ecoregions shown here have been derived from Omernik (1987) and from
+refinements of Omernik's framework that have been made for other projects.
+These ongoing or recently completed projects, conducted in collaboration with
+the U.S. EPA regional offices and with state resource management agencies,
+involve refining ecoregions, defining subregions, and locating sets of
+reference sites.  Designed to serve as a spatial framework for environmental
+resource management, ecoregions denote areas within which ecosystems (and
+the type, quality, and quantity of environmental resources) are generally
+similar.  The most immediate needs are to develop regional biological
+criteria and water quality standards and to set management goals for nonpoint
+source pollution.
+
+The approach used to compile this map is based on the premise that ecological
+regions can be identified through the analysis of the patterns and the
+composition of biotic and abiotic phenomena that affect or reflect differences
+in ecosystem quality and integrity (Wiken 1986; Omernik 1987, 1995).  These
+phenomena include geology, physiography, vegetation, climate, soils, land
+use, wildlife,  and hydrology.  The relative importance of each characteristic
+varies from one ecological region to another regardless of the hierarchical
+level.  Because of possible confusion with other meanings of terms for
+different levels of ecologic regions, a Roman numeral classification scheme
+has been adopted for this effort.  Level I is the coarsest level, dividing
+North America into 15 ecological regions whereas at Level II the continent
+is subdivided into 52 classes.  Level III is the hierarchical level shown on
+this map. For portions of the United States the ecoregions have been further
+subdivided to level IV.  The applications of the ecoregions are explained in
+Gallant et al. (1989) and in reports and publications from the state and
+regional projects.  For additional information, contact James M. Omernik,
+U.S. EPA National Health and Environmental Effects Laboratory (NHEERL),
+200 SW 35th St., Corvallis, OR 97333 (phone: 541-754-4458).
+</abstract>
+			<purpose>
+Assist managers of aquatic and terrestrial resources in understanding the
+regional patterns of the realistically attainable quality of these resources.
+</purpose>
+			<supplinf>
+
+Procedures_Used:
+
+The ecoregion boundaries of Omernik (1987) were originally compiled at a scale
+of 1:3,168,000 using a variety of scale source maps, and the ecoregion map was
+published at a display scale of 1:7,500,000. All level IV ecoregion
+delineations and most all level III revisions are digitized from the U.S.G.S.
+1:250,000 base maps.  For this coverage, USECO, the revised level III
+boundaries have been smoothed and generalized appropriately for a 1:7,500,000
+display scale.
+
+1)  Prior to digitizing, each base map must be initialized to orient the map
+and relate it in geographic coordinates to the surface of the earth.  When the
+registration tics are entered at the start of digitizing a transformation
+error of &lt;0.003 must be achieved in order to insure a high level of
+registration accuracy.  The person responsible for digital data entry
+completes a data sheet describing coverage name, date of entry, and whether a
+topology for the coverage is established.
+
+1)  All level IV ecoregion delineations and most all level III revisions
+are digitized from the U.S.G.S. 1:250,000 base maps.  For this coverage, USECO,
+the revised level III boundaries have been smoothed and generalized appropriate
+for a 1:7,500,000 display scale.  Prior to digitizing each base map must be
+initialized to orient the map and relate it in geographic coordinates to
+the surface of the earth.  When the registration tics are entered at the
+start of digitizing a transformation error of &lt;0.003 must be achieved in
+order to insure a high level of registration accuracy.  The person
+responsible for digital data entry completes a data sheet describing
+coverage name, date of entry, and whether a topology for the coverage is
+established.
+
+2)  After each 1:250,000 base map has been digitized, a topology
+for each coverage is established.  This function creates unique identities
+for each polygon.
+
+3)  Next each base map is tested for polygon errors through an
+internal editing function.  Errors are corrected for unlabeled polygons,
+unclosed polygons, or polygons with more than one label.  Topology is
+reestablished for each coverage and tested again until no error are
+indicated.
+
+4)  The digital coverage is then plotted at the same scale as the
+original base map.  This coverage is overlaid on a light table with the
+original and visually inspected for replication of original lines with
+digitized lines.  Two individuals independently inspect the coverage for
+accuracy.
+
+Revisions:
+1. Original lines digitized 1986?
+(unknown number of revisions between then and now)
+2. Updated lines in Ohio and Indiana 1/96
+3. updated lines in Tenn. 2/96
+4. updated lines western Oregon and Washington 6/6/96
+5. updated lines in ND from updated ND level IV lines 9/96
+6. updated lines in SD from updated SD level IV lines  9/96
+7. deleted # 41 (became part of #42), added 3 new ecoregions (#41, #79, and
+#80), extended #61 around adirondacks, #34 was extended south to Mexican
+boarder.  12/96
+8. updated line in SD from revised level IV lines in SD 12/96
+9. merged Thompson-Okanaga Highlands ecoregion (79) with Northern Rockies
+(15).  Madrean Archipelago (80) item ECO  became 79. 2/97
+10. updated line in Ohio, and line in central Oregon from revised lines. 10/97
+11. updated lines in Wisconsin from revised level IV lines.  11/97
+12. updated lines in Montana from revised level IV lines. 1/98
+13. Updated lines to agree with lines from the National Interagency Technical
+Team (NITT).  Areas where lines were altered include Ecoregion 4 in Nothern
+California, slightly shifted to the west; Ecoregions 36, 37, 38 and 39;
+ecoregion 73, has a tail going up Red River through Louisiana, into S.
+Arkansas; ecoregion 12 was split into two, 12 and 80 (Snake River Basin and
+High Desert); Ecoregion 14 was split into two, 14 and 81; Ecoregion 59
+was split in Maine, 59 and 82; ecoregion 61 was split into 61 and 83;
+ecoregion 63, along the east coast, was split into 63 and 84.
+14.  Updated lines to agree with level III revisions to AL, GA, and KS.  Lines
+were smoothed using alter and vertex move, add, and delete.  Ecoregion
+names were also updated as follows:  region #24 changed from "Southern
+Deserts" to "Chihuahuan Desert", region #80 changed from "Snake River High
+Desert" to "Northern Basin and Range", and region #13 changed from
+"Northern Basin and Range" to  "Central Basin and Range". 3/99
+15.  Updated lines in EPA Region 3 from revised level IV lines. Level III lines
+were also added to NJ separating 63 and 84.  Revisions were made for NE
+representing level IV updates.  3/99
+16.  Updated level III lines in UT, NE, KS, MD, GA, SC, and AL according to
+final and latest draft lines for respective level IV ecoregions.  3/00
+17.  Updated level III lines in OR, WA, ID, MT, UT, NV, SC, GA, NC, KS, NE, and
+MO according to lines final and latest draft lines for respective level IV
+ecoregions smoothed by Jim Omernik. 11/00
+18.  Updated level III lines according to revisions in OR, NV, ID, MS, LA, AL,
+SC, NC, KY, AR, and WI. 08/2002 jac
+19.  Revised level III lines according to updates in Mississippi Alluvial Plain
+and in WY.  2/2003 jac
+
+Reviews_Applied_to_Data:
+1.  Lines and map were reviewed by ??
+2.  Revised lines were reviewed by Alan Woods, Dynamac
+3.  Revised lines were reviewed by Glenn Griffith, EPA
+4.  Revised lines were reviewed by David Pater, Dynamac
+5.  Revised lines were reviewed by Sandy Bryce, Dynamac
+6.  Revised lines were reviewed by Sandy Bryce, Dynamac
+7.  Revised lines were reviewed by Jim Omernik, EPA
+8.  Revised lines were reviewed by Sandy Bryce, Dynamac
+9.  Revised line was reviewed by Jim Omernik, EPA
+10.  Revised lines were reviewed by Sandy Bryce, Dynamac
+11.  Revised lines were reviewed by Shannen Chapman, Dynamac
+12.  Revised lines were reviewed by Alan Woods, Dynamac
+13.  Revised lines were reviewed by Jim Omernik, EPA
+14.  Revised lines were reviewed by Glenn Griffith, NRCS
+15.  Revised lines were reviewed by Alan Woods, Dynamac
+16.  Revised lines were reviewed by Alan Woods, Dynamac &amp; Glenn Griffith, NRCS
+17.  Revised lines were reviewed by Jim Omernik, EPA
+18.  Revised lines were reviewed by Glenn Griffith, NRCS
+19.  Revisions were reviewed by Shannen Chapman, Glenn Griffith and Jim Omernik
+
+Related_Spatial_and_Tabular_Data_Sets:
+
+USECO.DAT - contains items ECO (Ecoregion Code) and NAME (Ecoregion Name)
+USECO.LUT - contains items ECO (Ecoregion code) and SYMBOL (Lookup symbol)
+
+References
+
+Bryce, S.A., J.M. Omernik, D.E. Pater, M. Ulmer, J. Schaar, J. Freeouf, R.
+Johnson, P. Kuck, and S.H. Azevedo. 1998. Ecoregions of North Dakota and
+South Dakota. (Map poster). U.S. Geological Survey, Reston, VA.
+
+Clarke, S.E. and S.A. Bryce. 1997. Hierarchical subdivisions of the Columbia
+Plateau and Blue Mountains ecoregions, Oregon and Washington. General Technical
+Report PNW-GTR-395. U.S. Department of Agriculture, Forest Service, Pacific
+Northwest Research Station, Portland, OR.
+
+Commission for Environmental Cooperation. 1997. Ecological regions of North
+America: toward a common perspective. Commission for Environmental Cooperation,
+Montreal, Quebec, Canada. 71pp. Map (scale 1:12,500,000).
+
+Gallant, A.L., T.R. Whittier, D.P. Larsen, J.M. Omernik, and R.M. Hughes. 1989.
+Regionalization as a tool for managing environmental resources. EPA/600/3-89/
+060. U.S. Environmental Protection Agency, Environmental Research Laboratory,
+Corvallis, OR. 152p.
+
+Gallant, A.L., E.F. Binnian, J.M. Omernik, and M.B. Shasby. 1995. Ecoregions of
+Alaska.  U.S. Geological Survey Professional Paper 1567. U.S. Government
+Printing Office, Washington D.C.  73 p.
+
+Griffith, G.E. and J.M. Omernik. 1991. Alabama/Mississippi Project. U.S.
+Environmental Protection Agency, Environmental Research Laboratory, Corvallis
+OR. 27 p.
+
+Griffith, G.E., J.M. Omernik, and S.H. Azevedo. 1997. Ecoregions of Tennessee.
+EPA/600/R-97/022. U.S. Environmental Protection Agency, National Health and
+Environmental Effects Research Laboratory, Corvallis, OR. 51p.
+
+Griffith, G.E., J.M. Omernik, S.M. Pierson, and C.W. Kiilsgaard. 1994.
+Massachusetts ecological regions project. EPA/600/A-94/111. U.S. Environmental
+Protection Agency, Environmental Research Laboratory, Corvallis, OR. 58p.
+
+Griffith, G.E., J.M. Omernik, C.M. Rohm, and S.M. Pierson. 1994. Florida
+regionalization project. EPA/600/Q-95/002. U.S. Environmental Protection
+Agency, Environmental Research Laboratory, Corvallis OR. 83p.
+
+Griffith, G.E., J.M. Omernik, T.F. Wilton, and S.M. Pierson. 1994. Ecoregions
+and subregions of Iowa: A framework for water quality assessment and management.
+The Journal of the Iowa Academy of Science. 101(1):5-13.
+
+Omernik, J.M. 1987. Ecoregions of the conterminous United States. Map (scale
+1:7,500,000). Annals of the Association of American Geographers 77(1):118-125.
+
+Omernik, J.M. 1995. Ecoregions: A spatial framework for environmental
+management.  In: Biological Assessment and Criteria: Tools for Water Resource
+Planning and Decision Making. Davis, W.S. and T.P. Simon (eds.) Lewis
+Publishers, Boca Raton, FL. Pp. 49-62.
+
+Pater, D.E., S.A. Bryce, T.D. Thorson, J. Kagan, C. Chappell, J.M. Omernik,
+S.H. Azevedo, and A.J. Woods. 1998. Ecoregions of Western Washington and
+Oregon. (Map poster). U.S. Geological Survey, Reston, VA.
+
+Wiken, E. 1986. Terrestrial ecozones of Canada. Environment Canada. Ecological
+Land Classification Series No. 19.  Ottawa, Canada.
+
+Woods, A.J., J.M. Omernik, C.S. Brockman, T.D. Gerber, W.D. Hosteter, and S.H.
+Azevedo. 1998.  Ecoregions of Indiana and Ohio. (Map poster). U.S.
+Geological Survey, Reston VA.
+
+Woods, A.J., J.M. Omernik, D.D. Brown, and C.W. Kiilsgaard. 1996. Level III and
+IV ecoregions of Pennsylvania and the Blue Ridge Mountains, the Ridge and
+Valley, and Central Appalachians of Virginia, West Virginia, and Maryland.
+EPA/600/R-96/077. U.S. Environmental Protection Agency, National Health and
+Environmental Effects Research Laboratory, Corvallis, OR. 50p.
+
+Notes:
+
+Currentness_Reference
+
+Maintenance_and_Update_Frequency
+
+as needed
+
+Access_Constraints
+
+n/a
+
+Data_Set_Credit
+
+Completeness_Report
+
+Horizontal_Positional_Accuracy_Report
+
+Vertical_Positional_Accuracy_Report
+
+Cloud_Cover
+
+Other_References_Cited:
+Notes:
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1986</begdate>
+					<enddate>2/03</enddate>
+				</rngdates>
+				<sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo>
+			<current/>
+		</timeperd>
+		<status>
+			<progress>2003</progress>
+			<update/>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-127.841952</westbc>
+				<eastbc>-65.385080</eastbc>
+				<northbc>51.540210</northbc>
+				<southbc>22.877533</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Level III ecoregions</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Ecoregions of Continental  US</placekey>
+			</place>
+			<stratum>
+				<stratkt>None</stratkt>
+				<stratkey>None</stratkey>
+			</stratum>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>None</tempkey>
+			</temporal>
+		</keywords>
+		<accconst/>
+		<useconst>
+for use at 1:250,000 or smaller scales
+</useconst>
+		<ptcontac/>
+		<datacred/>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<crossref>
+			<citeinfo>
+				<origin>Omernik, J.M.</origin>
+				<pubdate>1987</pubdate>
+				<pubtime/>
+				<title>Ecoregions of the conterminous United States (map supplement)</title>
+				<edition>1</edition>
+				<geoform>map</geoform>
+				<serinfo>
+					<sername/>
+					<issue/>
+				</serinfo>
+				<pubinfo>
+					<pubplace/>
+					<publish>Annals of Assoc. of Am. Geogs.</publish>
+				</pubinfo>
+				<othercit/>
+				<onlink/>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>See Entity_Attribute_Information</attraccr>
+			<qattracc>
+				<attraccv>See Explanation</attraccv>
+				<attracce>
+Attribute accuracy is described, where present, with each
+attribute defined in the Entity and Attribute Section.
+</attracce>
+			</qattracc>
+		</attracc>
+		<logic>Polygon and chain-node topology present.</logic>
+		<complete/>
+		<posacc>
+			<horizpa>
+				<horizpar/>
+			</horizpa>
+			<vertacc>
+				<vertaccr/>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin/>
+						<pubdate/>
+						<title/>
+					</citeinfo>
+				</srccite>
+				<srcscale>250000</srcscale>
+				<typesrc/>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate/>
+						</sngdate>
+					</timeinfo>
+					<srccurr/>
+				</srctime>
+				<srccitea/>
+				<srccontr/>
+			</srcinfo>
+			<procstep>
+				<procdesc>COMSTOCK MAPJOIN US34 NET ALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020701</procdate>
+				<proctime>1725</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>0928</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>0936</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>0950</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>0957</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>0958</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1000</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1036</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1044</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1044</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1122</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1124</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1124</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020709</procdate>
+				<proctime>1125</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020710</procdate>
+				<proctime>1036</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020710</procdate>
+				<proctime>1037</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020710</procdate>
+				<proctime>1048</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1554</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1601</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1646</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1653</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1713</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020711</procdate>
+				<proctime>1715</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1104</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1105</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1135</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1146</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1147</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1147</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1147</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD US34 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020715</procdate>
+				<proctime>1154</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>0859</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>0918</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>0919</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>0919</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>0920</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020716</procdate>
+				<proctime>1234</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020722</procdate>
+				<proctime>1702</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020722</procdate>
+				<proctime>1757</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD US34 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020722</procdate>
+				<proctime>1803</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020723</procdate>
+				<proctime>1100</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020723</procdate>
+				<proctime>1120</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1419</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1421</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1424</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1426</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1427</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1428</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1429</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1439</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1440</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1449</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1450</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1541</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1541</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1545</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1715</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1717</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1721</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1725</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1725</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1736</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1736</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1740</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1756</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1807</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1811</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD US34 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1812</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD US34 ARC</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020724</procdate>
+				<proctime>1812</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>0951</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>0952</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1122</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1139</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1144</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1146</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1148</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1151</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1154</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1155</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1156</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1203</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1204</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1213</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1236</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1236</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1238</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1301</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1307</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1307</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1308</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1310</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1314</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1325</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1325</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1335</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1336</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1338</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1341</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1344</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1346</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1349</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1352</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1352</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1354</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1406</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1409</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1410</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1411</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1411</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1412</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1413</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1413</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1417</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1425</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1426</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1438</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1438</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1518</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020725</procdate>
+				<proctime>1527</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1354</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1355</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1535</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1607</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1618</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1619</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/DATA/XWORK/US34</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1639</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD US34 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020729</procdate>
+				<proctime>1645</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT US34 COPY   /DISK/GIS4/ECOREGIONS/OMERNIK/USECO COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>0902</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT US34 UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1335</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY US34 USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1346</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO_L4 UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1414</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1424</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO_L4 UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1457</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020904</procdate>
+				<proctime>1505</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020916</procdate>
+				<proctime>1418</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY USECO_L4 /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20020916</procdate>
+				<proctime>1706</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4 USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1623</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1651</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1655</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1656</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1657</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1712</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1718</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1740</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1741</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021007</procdate>
+				<proctime>1753</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1711</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1712</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1713</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1734</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1735</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1735</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1751</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1751</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1751</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1805</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021015</procdate>
+				<proctime>1806</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J404.JIM.US4/WORK2/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>0836</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO_L4 UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>0841</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY USECO_L4 /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>0846</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK PROJECTDEFINE COVER USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>1049</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK PROJECTDEFINE COVER USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>1051</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021016</procdate>
+				<proctime>1118</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1533</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1533</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1543</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1545</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1546</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1556</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1558</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1559</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1608</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021017</procdate>
+				<proctime>1612</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021104</procdate>
+				<proctime>1629</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO_L4 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021104</procdate>
+				<proctime>1644</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021104</procdate>
+				<proctime>1647</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO_L4 USECO_L4.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20021204</procdate>
+				<proctime>1635</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030110</procdate>
+				<proctime>1544</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY /DISK/GIS4/ECOREGIONS/OMERNIK/USECO_L4 USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1555</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1608</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1609</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1618</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1618</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1621</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1621</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1628</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1637</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1646</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/ECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030116</procdate>
+				<proctime>1648</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>EXTERNALALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>0918</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1157</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1207</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1209</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1209</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1210</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1212</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1218</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1220</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1221</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1222</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1223</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1223</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1235</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1250</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1252</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1253</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1303</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1308</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1309</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030123</procdate>
+				<proctime>1319</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030127</procdate>
+				<proctime>1238</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030127</procdate>
+				<proctime>1239</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030127</procdate>
+				<proctime>1241</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030127</procdate>
+				<proctime>1308</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1408</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1446</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1449</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1506</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1513</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1514</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1523</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1536</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1635</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1637</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1640</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1641</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1641</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1643</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1644</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1721</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1734</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030128</procdate>
+				<proctime>1846</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030129</procdate>
+				<proctime>1300</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030130</procdate>
+				<proctime>0941</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030130</procdate>
+				<proctime>0942</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030130</procdate>
+				<proctime>0942</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030130</procdate>
+				<proctime>1028</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK LABELERRORS USECO_L4 ALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1126</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1141</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK LABELERRORS USECO_L4 ALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1141</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO_L4 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1150</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK LABELERRORS USECO_L4 ALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1150</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1326</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO_L4 POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1327</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK LABELERRORS USECO_L4 ALL</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1328</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO_L4 UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1439</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1447</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1447</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1447</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1458</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO_L4</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1507</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK DISSOLVE USECO_L4 USECO LEVEL3 NET</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1624</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO COPY   /DISK/GIS4/ECOREGIONS/OMERNIK/USECO COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1633</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030218</procdate>
+				<proctime>1636</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030227</procdate>
+				<proctime>0916</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030227</procdate>
+				<proctime>0917</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030227</procdate>
+				<proctime>1004</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY USECO /DISK/GIS4/ECOREGIONS/OMERNIK/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030227</procdate>
+				<proctime>1014</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030307</procdate>
+				<proctime>1448</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY /DISK/GIS4/ECOREGIONS/OMERNIK/USECO USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1006</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1030</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1036</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1038</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1040</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1042</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1044</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1045</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1050</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1052</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1053</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1055</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1056</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1057</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1058</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1102</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1104</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1104</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1134</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK BUILD USECO POLY</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1145</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030319</procdate>
+				<proctime>1209</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1314</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1317</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1319</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1414</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/UBER2/DATA/JOBS/J415.JIM.USREVISE/USECO/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1422</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK COPY USECO /DISK/GIS4/ECOREGIONS/OMERNIK/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1438</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK EXPORT COVER USECO USECO.E00</procdesc>
+				<srcused>None</srcused>
+				<procdate>20030522</procdate>
+				<proctime>1448</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK ARCEDIT /DISK/GIS4/ECOREGIONS/OMERNIK/USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20040209</procdate>
+				<proctime>0924</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>COMSTOCK   DOCUMENT USECO UPDATE COMSTOCK</procdesc>
+				<srcused>None</srcused>
+				<procdate>20040209</procdate>
+				<proctime>0934</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>MORANB IMPORT COV USECO.E00 USECO</procdesc>
+				<srcused>None</srcused>
+				<procdate>20040818</procdate>
+				<proctime>1120</proctime>
+				<srcprod>None</srcprod>
+			</procstep>
+			<procstep><procdesc>Metadata imported.</procdesc><srcused>C:\DOCUME~1\moranb\LOCALS~1\Temp\xml1A76.tmp</srcused><date>20040927</date><time>11275900</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused>c:\workspace\useco</srcused><date>20050425</date><time>17584800</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused>c:\tempdatafiles\us level 3 revise\useco</srcused><date>20050505</date><time>12162700</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused>c:\tempdatafiles\co_eco\useco</srcused><date>20050512</date><time>15361800</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused/><date>20050928</date><time>18090000</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused>C:\Projects\GIS_misc\wsa_region_CPL</srcused><date>20051017</date><time>15033800</time></procstep><procstep><procdesc>Dataset moved.</procdesc><srcused>C:\GISdata\WSA_Ecoregions\Projects\GIS_misc\wsa_regions\wsa_region_CPL</srcused><date>20080208</date><time>11062400</time></procstep><procstep><procdesc>Dataset copied.</procdesc><srcused/><procdate>20110328</procdate><proctime>14444100</proctime></procstep></lineage>
+		<cloud>Unknown</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="narswsa">
+				<sdtstype>G-polygon</sdtstype>
+				<ptvctcnt>9</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>1213</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>1213</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm><sdtstype>Point</sdtstype><ptvctcnt>1700</ptvctcnt></sdtsterm><sdtsterm><sdtstype>Label point</sdtstype><ptvctcnt>436</ptvctcnt></sdtsterm><esriterm Name="narswsa"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1927</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.400000</semiaxis>
+				<denflat>294.978698</denflat>
+			</geodetic>
+			<geograph><geogunit>Decimal degrees</geogunit><latres>0.000000</latres><longres>0.000000</longres></geograph><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc>Explicit elevation coordinate included with horizontal coordinates</altenc><altres>1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="narswsa">
+			<enttyp>
+				<enttypl>wsa_regions</enttypl>
+				<enttypd>Ecoregions of US polygon attribute table</enttypd>
+				<enttypds>1:250,000 topo maps</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Positive real numbers</edomv>
+						<edomvd/>
+						<edomvds/>
+					</edom>
+					<udom>Coordinates defining the features.</udom></attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl>WSA_REGION</attrlabl><attalias Sync="TRUE">WSA_REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr></detailed>
+		<overview>
+			<eaover>
+
+Attributes: Polygon coverage (.PAT)
+
+Regions:
+
+ECO  Ecoregion name
+1  Coast Range
+2  Puget Lowland
+3  Willamette Valley
+4  Cascades
+5  Sierra Nevada
+6  Southern and Central California Chaparral and Oak Woodlands
+7  Central California Valley
+8  Southern California Mountains
+9  Eastern Cascades Slopes and Foothills
+10  Columbia Plateau
+11  Blue Mountains
+12  Snake River Plain
+13  Central Basin and Range
+14  Mojave Basin and Range
+15  Northern Rockies
+16  Idaho Batholith
+17  Middle Rockies
+18  Wyoming Basin
+19  Wasatch and Uinta Mountains
+20  Colorado Plateaus
+21  Southern Rockies
+22  Arizona/New Mexico Plateau
+23  Arizona/New Mexico Mountains
+24  Chihuahuan Deserts
+25  High Plains
+26  Southwestern Tablelands
+27  Central Great Plains
+28  Flint Hills
+29  Cross Timbers
+30  Edwards Plateau
+31  Southern Texas Plains
+32  Texas Blackland Prairies
+33  East Central Texas Plains
+34  Western Gulf Coastal Plain
+35  South Central Plains
+36  Ouachita Mountains
+37  Arkansas Valley
+38  Boston Mountains
+39  Ozark Highlands
+40  Central Irregular Plains
+41  Canadian Rockies
+42  Northwestern Glaciated Plains
+43  Northwestern Great Plains
+44  Nebraska Sand Hills
+45  Piedmont
+46  Northern Glaciated Plains
+47  Western Corn Belt Plains
+48  Lake Agassiz Plain
+49  Northern Minnesota Wetlands
+50  Northern Lakes and Forests
+51  North Central Hardwood Forests
+52  Driftless Area
+53  Southeastern Wisconsin Till Plains
+54  Central Corn Belt Plains
+55  Eastern Corn Belt Plains
+56  S. Michigan/N. Indiana Drift Plains
+57  Huron/Erie Lake Plains
+58  Northeastern Highlands
+59  Northeastern Coastal Zone
+60  Northern Appalachian Plateau and Uplands
+61  Erie Drift Plains
+62  North Central Appalachians
+63  Middle Atlantic Coastal Plain
+64  Northern Piedmont
+65  Southeastern Plains
+66  Blue Ridge
+67  Ridge and Valley
+68  Southwestern Appalachians
+69  Central Appalachians
+70  Western Allegheny Plateau
+71  Interior Plateau
+72  Interior River Valleys and Hills
+73  Mississippi Alluvial Plain
+74  Mississippi Valley Loess Plains
+75  Southern Coastal Plain
+76  Southern Florida Coastal Plain
+77  North Cascades
+78  Klamath Mountains
+79  Madrean Archipelago
+80  Northern Basin and Range
+81  Sonoran Basin and Range
+82  Laurentian Plains and Hills
+83  Eastern Great Lakes and Hudson Lowlands
+84  Atlantic Coastal Pine Barrens
+</eaover>
+			<eadetcit>Not Available</eadetcit>
+		</overview>
+		<detailed><enttyp><enttypl>useco.pat</enttypl></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>AREA</attrlabl><attrdef>Area of feature in internal units squared.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>PERIMETER</attrlabl><attrdef>Perimeter of feature in internal units.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>USECO#</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>USECO-ID</attrlabl><attrdef>User-defined feature number.</attrdef><attrdefs>ESRI</attrdefs></attr><attr><attrlabl>ECO</attrlabl></attr><attr><attrlabl>LEVEL3</attrlabl></attr><attr><attrlabl>LEVEL3_NAME</attrlabl></attr></detailed></eainfo>
+	<distinfo><resdesc>Downloadable Data</resdesc><stdorder><digform><digtinfo><transize>5.308</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd>20080610</metd>
+		<metc><cntinfo><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp><cntaddr><addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype><city>REQUIRED: The city of the address.</city><state>REQUIRED: The state or province of the address.</state><postal>REQUIRED: The ZIP or other postal code of the address.</postal></cntaddr><cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice></cntinfo></metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo><envirDesc>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</envirDesc><dataLang><languageCode value="en"/></dataLang><idCitation><resTitle>wsa_regions</resTitle><presForm><PresFormCd value="005"/></presForm></idCitation><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL>-2355015</westBL><eastBL>2257531.5</eastBL><northBL>3165494.75</northBL><southBL>269632.75</southBL><exTypeCode>1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL>-127.841952</westBL><eastBL>-65.38508</eastBL><northBL>51.54021</northBL><southBL>22.877533</southBL><exTypeCode>1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode value="en"/></mdLang><mdStanName>ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer>DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdHrLvName>dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc>002</orDesc><linkage>file://\\HW7D-PDZIEMIELA\D$\MARB_WSA\wsa_regions_nad83.gdb</linkage><protocol>Local Area Network</protocol></onLineSrc><transSize>5.308</transSize></distorTran><distorFormat><formatName>Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode>NAD_1927_Albers</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001"/></topLvl><geometObjs><geoObjTyp><GeoObjTypCd value="001"/></geoObjTyp><geoObjCnt>9</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt>20080610</mdDateSt><Esri><SyncDate>20110504</SyncDate><SyncTime>14564200</SyncTime><ModDate>20110504</ModDate><ModTime>14564200</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110504" Time="145645">FeatureClassToFeatureClass "Database Connections\marb_wsa@kraken_waters10.sde\MARB_WSA.WSA_REGIONS_OS" C:\WorkSpace\marb\data\NARS_WSA narswsa.shp # "WSA_REGION 'WSA_REGION' true false false 10 Text 0 0 ,First,#,Database Connections\marb_wsa@kraken_waters10.sde\MARB_WSA.WSA_REGIONS_OS,WSA_REGION,-1,-1" # C:\WorkSpace\marb\data\NARS_WSA\narswsa.shp</Process></lineage></DataProperties></Esri></metadata>
