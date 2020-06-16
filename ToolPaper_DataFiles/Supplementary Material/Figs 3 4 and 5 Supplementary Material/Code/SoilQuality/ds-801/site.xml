@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>David B. Smith</origin>
+<origin>William F. Cannon</origin>
+<origin>Laurel G. Woodruff</origin>
+<origin>Federico Solano</origin>
+<origin>James E. Kilburn</origin>
+<origin>David L. Fey</origin>
+<pubdate>2013</pubdate>
+<title>Geochemical and mineralogical data for soils of the conterminous United States</title>
+<edition>Version 1.0</edition>
+<geoform>tabular data</geoform>
+<serinfo>
+<sername>U.S. Geological Survey Data Series</sername>
+<issue>801</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Denver, CO</pubplace>
+<publish>U.S. Geological Survey</publish>
+</pubinfo>
+<onlink>http://pubs.usgs.gov/ds/801/</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>In 2007, the U.S. Geological Survey began a low-density (1 site per 1,600 sq. km., 4857 sites) geochemical and mineralogical survey of soils of the conterminous United States. Sampling and analytical protocols were developed at a workshop in 2003, and pilot studies were conducted from 2004-2007 to test and refine these recommended protocols.  The final sampling protocol for the national-scale survey included, at each site, a composite sample from a depth of 0 to 5 centimeters, a composite of the soil A horizon, and a deeper sample from the soil C horizon or, if the top of the C horizon was at a depth greater than 1 meter, from a depth of approximately 80 to 100 centimeters.  The &lt;2-millimeter fraction of each sample was analyzed for a suite of 45 major and trace elements by methods that yield the total, or near-total, elemental content.  The major mineralogical components in the samples from the soil A and C horizons were determined by a quantitative X-ray diffraction method using Rietveld refinement. Sampling in the conterminous U.S. was completed in 2010 with chemical and mineralogical analyses completed in May, 2013.  The resulting data set provides an estimate of the abundance and spatial distribution of chemical elements and minerals in soils of the conterminous U.S. and represents a baseline for soil geochemistry and mineralogy against which future changes may be recognized and quantified.  This report (1) describes the sampling, sample preparation, and analytical methods used; (2) gives details of the quality control protocols used to monitor the quality of chemical and mineralogical analyses over approximately six years, and (3) makes available the soil geochemical and mineralogical data in downloadable tables.</abstract>
+<purpose>This dataset was initiated, designed, and populated to compile and integrate mineralogical and geochemical data from soil samples collected over the conterminous US in order to establish a geochemical and mineralogical baseline to (1) map the abundance and spatial distribution of the analyzed chemical elements and minerals; (2) gain insight to the processes that caused the observed elemental and mineralogical distribution; and (3) provide a geochemical and mineralogical baseline against which future changes may be recognized and quantified. The dataset serves as a data warehouse in support of present and future geological or geochemical projects.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>2007</begdate>
+<enddate>2013</enddate>
+</rngdates>
+</timeinfo>
+<current>Sample collection and analysis period</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>None is planned for the project</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-124.4019</westbc>
+<eastbc>-67.5201</eastbc>
+<northbc>48.9835</northbc>
+<southbc>25.1376</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>none</themekt>
+<themekey>Soil Geochemical Landscapes of the Conterminous United States Project</themekey>
+<themekey>North American Soils Geochemical Landscapes Project</themekey>
+<themekey>NASGL Project</themekey>
+<themekey>soil</themekey>
+<themekey>0-5 cm</themekey>
+<themekey>A horizon</themekey>
+<themekey>C horizon</themekey>
+<themekey>exploration geochemistry</themekey>
+<themekey>environmental geochemistry</themekey>
+<themekey>soil chemistry</themekey>
+<themekey>soil mineralogy</themekey>
+<themekey>x-ray diffraction</themekey>
+<themekey>geochemical data</themekey>
+<themekey>mineralogical data</themekey>
+<themekey>soil samples</themekey>
+<themekey>arsenic</themekey>
+<themekey>barium</themekey>
+<themekey>beryllium</themekey>
+<themekey>bismuth</themekey>
+<themekey>carbon</themekey>
+<themekey>calcium</themekey>
+<themekey>cadmium</themekey>
+<themekey>cerium</themekey>
+<themekey>cobalt</themekey>
+<themekey>cesium</themekey>
+<themekey>chromium</themekey>
+<themekey>copper</themekey>
+<themekey>iron</themekey>
+<themekey>gallium</themekey>
+<themekey>mercury</themekey>
+<themekey>indium</themekey>
+<themekey>potassium</themekey>
+<themekey>lanthanum</themekey>
+<themekey>lithium</themekey>
+<themekey>magnesium</themekey>
+<themekey>manganese</themekey>
+<themekey>molybdenum</themekey>
+<themekey>sodium</themekey>
+<themekey>niobium</themekey>
+<themekey>nickel</themekey>
+<themekey>phosphorus</themekey>
+<themekey>lead</themekey>
+<themekey>rubidium</themekey>
+<themekey>sulfur</themekey>
+<themekey>antimony</themekey>
+<themekey>scandium</themekey>
+<themekey>selenium</themekey>
+<themekey>tin</themekey>
+<themekey>strontium</themekey>
+<themekey>tellurium</themekey>
+<themekey>thorium</themekey>
+<themekey>titanium</themekey>
+<themekey>thallium</themekey>
+<themekey>uranium</themekey>
+<themekey>vanadium</themekey>
+<themekey>tungsten</themekey>
+<themekey>yttrium</themekey>
+<themekey>zinc</themekey>
+<themekey>quartz</themekey>
+<themekey>potassium feldspar</themekey>
+<themekey>plagioclase</themekey>
+<themekey>feldspar</themekey>
+<themekey>14Å clays</themekey>
+<themekey>10Å clays</themekey>
+<themekey>kaolinite</themekey>
+<themekey>clays</themekey>
+<themekey>gibbsite</themekey>
+<themekey>calcite</themekey>
+<themekey>dolomite</themekey>
+<themekey>aragonite</themekey>
+<themekey>carbonates</themekey>
+<themekey>analcime</themekey>
+<themekey>heulandite</themekey>
+<themekey>zeolite</themekey>
+<themekey>gypsum</themekey>
+<themekey>talc</themekey>
+<themekey>hornblende</themekey>
+<themekey>serpentine</themekey>
+<themekey>hematite</themekey>
+<themekey>goethite</themekey>
+<themekey>pyroxene</themekey>
+<themekey>pyrite</themekey>
+<themekey>amorphous</themekey>
+</theme>
+<place>
+<placekt>none</placekt>
+<placekey>United States of America</placekey>
+<placekey>US</placekey>
+<placekey>Alabama</placekey>
+<placekey>Arkansas</placekey>
+<placekey>Arizona</placekey>
+<placekey>California</placekey>
+<placekey>Colorado</placekey>
+<placekey>Connecticut</placekey>
+<placekey>Delaware</placekey>
+<placekey>Florida</placekey>
+<placekey>Georgia</placekey>
+<placekey>Idaho</placekey>
+<placekey>Illinois</placekey>
+<placekey>Indiana</placekey>
+<placekey>Iowa</placekey>
+<placekey>Kansas</placekey>
+<placekey>Kentucky</placekey>
+<placekey>Louisiana</placekey>
+<placekey>Maine</placekey>
+<placekey>Maryland</placekey>
+<placekey>Massachusetts</placekey>
+<placekey>Michigan</placekey>
+<placekey>Minnesota</placekey>
+<placekey>Mississippi</placekey>
+<placekey>Missouri</placekey>
+<placekey>Montana</placekey>
+<placekey>Nebraska</placekey>
+<placekey>Nevada</placekey>
+<placekey>New Hampshire</placekey>
+<placekey>New Jersey</placekey>
+<placekey>New Mexico</placekey>
+<placekey>New York</placekey>
+<placekey>North Carolina</placekey>
+<placekey>North Dakota</placekey>
+<placekey>Ohio</placekey>
+<placekey>Oklahoma</placekey>
+<placekey>Oregon</placekey>
+<placekey>Pennsylvania</placekey>
+<placekey>Rhode Island</placekey>
+<placekey>South Carolina</placekey>
+<placekey>South Dakota</placekey>
+<placekey>Tennessee</placekey>
+<placekey>Texas</placekey>
+<placekey>Utah</placekey>
+<placekey>Virginia</placekey>
+<placekey>Vermont</placekey>
+<placekey>Washington</placekey>
+<placekey>West Virginia</placekey>
+<placekey>Wisconsin</placekey>
+<placekey>Wyoming</placekey>
+</place>
+<place><placekt>Augmented FIPS 10-4 and FIPS 6-4</placekt><placekey>fUS = United States</placekey></place></keywords>
+<accconst>none</accconst>
+<useconst>
+Users are required to determine the suitability of use for any particular purpose.
+
+Except for the site identification and the geographic coordinates, which are numeric fields, the mineralogic and chemical data fields are given as text to account for the inclusion of the non-numerical values N.S. (no sample available), N.D. (no detect or under the detection limit), INS (insufficient amount of sample to perform an analysis), and those values with the less than (&lt;) or less than/equal to (&lt;=) qualifiers.
+</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>David B Smith</cntper>
+<cntorg>USGS Rocky Mountain Area</cntorg>
+</cntperp>
+<cntpos>Researcg Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25046 Denver Federal Center Mail Stop 973</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-236-1849</cntvoice>
+<cntfax>303-236-3200</cntfax>
+<cntemail>dsmith@usgs.gov</cntemail>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>
+The data of this dataset represent geochemical and mineralogical analyses of soil samples collected in support of the USGS Soil Geochemical Landscapes Project. A written protocol was established prior to the initiation of the field work as several crews from the U.S. Geological Survey, state geological surveys, and the Natural Resources Conservation Service (NRCS) were expected to be involved with the collection of samples. The protocol described the collection procedures and the design of the field sheet used to record the support data related to each sample site. The following attributes were considered and are included in the database:
+
+1) Location coordinates: All crews were equipped with Global Positioning System (GPS) receivers set to determine geographic positions using the WGS-84 datum. Coordinates were recorded as decimal degrees of latitude and longitude both into the GPS units and written in the field sheets. Data included in the database are reported in this manner.
+
+2) Geocoding: The protocol called for the submission of descriptive information (geocoding) related to the sampling site. Some fields were mandatory and others were optional and the completeness varies.
+
+3) Soil horizons: The identification of soil horizons is a process involving the experience and expertise of the person(s) collecting the sample(s). The identification of precise boundaries between horizons is not always obvious.
+
+4) Chemical analytical data: The samples in this data set were chemically analyzed by a uniform and standardized set of techniques between 2008 and 2013. The use of standard reference materials, blanks, and duplicates analyzed along with the regular sample batches documented the quality (bias and precision) of the data.
+
+The precision of the values reported for chemical analytical data varies depending on the element, between 0, 1, or 2 decimal places. The number of decimal places is indicated as part of the description of the tables.
+
+5) Qualifiers: Data in the chemical tables include the following qualifiers:
+
+"&lt;" : the concentration of the element is reported as lower than the lower limit of determination for the particular method.
+"&lt;=" : this qualifier is used in a few instances of organic carbon values. The organic carbon is reported as the difference between measured total carbon and the inorganic carbon content determined from the carbonate minerals. When there is no sample available for mineralogical analysis, the organic carbon is assumed to be less than or equal to the total measured carbon.
+
+In addition, in a very few instances, there was insufficient sample available for an analytical method to be performed. The data tables show the following for this case: "INS" = the concentration of the element was not determined because the sample amount submitted was insufficient to process.
+
+6) Mineralogical data: The samples were prepared and analyzed using the X-ray diffraction  (XRD) method. Mineral species were determined for the major components of the sample fraction having crystalline structure and having been documented with a set of measured dimensions for the crystalline lattice. The addition of an internal standard consisting of 10% zincite (ZnO) with a purity of at least 99.5% allows for the quantification of the crystalline fraction. The remaining fraction is reported as amorphous. All values for mineral phases are reported with a precision of one decimal place.
+
+Undetected mineral phases are reported as "N.D."
+</attraccr>
+</attracc>
+<logic>
+The dataset was constructed by processing data collected in the field and recorded in the field sheets and from laboratory based chemical and mineralogical analyses. The following criteria were chosen for the reporting of the data:
+
+- Each sample site has a unique identifier (SiteID).
+
+- Each sample site has a set of geographic coordinates (latitude and longitude).
+
+- Each sample collected in the field and analyzed for chemistry in the lab has a unique lab number.
+
+- Each analytical determination is linked to a valid, unique lab number.
+</logic>
+<complete>
+"N.S." indicates that a sample is not available because it was either lost in shipping or not collected.
+
+This data set provides chemical data for Ag, Al, As, Ba, Be, Bi, Total C, Inorganic C, Organic C, Ca, Cd, Ce, Co, Cr, Cs, Cu, Fe, Ga, Hg, In, K, La, Li, Mg, Mn, Mo, Na, Nb, Ni, P, Pb, Rb, S, Sb, Sc, Se, Sn, Sr, Te, Th, Ti, Tl, U, V, W, Y, and Zn.
+
+The data set provides location and descriptive information for each sample. Not all the descriptive fields contain information for a particular sample either because it was not recorded by the field crew or because it was lost in shipping after collection.
+
+The analytical methods used were selected based on the goals of the project and the methods used were available through the USGS contract laboratory and remained the same throughout the data set.
+
+This data set provides mineralogical data for quartz, total potassium feldspar, total plagioclase, total feldspars, total 14Å clays, total 10Å clays, kaolinite, total clays, gibbsite, calcite, dolomite, aragonite, total carbonates, analcime, heulandite, total zeolites, gypsum, talc, hornblende, hematite, goethite, pyroxene, pyrite, other minerals, and the amorphous content.
+
+The analytical methods, sample preparation protocols, and quality control protocols used for the analyses of these samples are described in this publication. The primary reference that documents the chemical analytical procedures used by the USGS is: Taggart, J.E., Jr. (ed). 2002. Analytical methods for geochemical analysis of geologic and other materials, U.S. Geological Survey. U.S. Geological Survey Open-File Report 02-223, available from http://pubs.usgs.gov/of/2002/ofr-02-0223/OFR-02-0223.pdf
+</complete>
+<lineage>
+<procstep>
+<procdesc>This data set was created from chemical and mineralogical analyses of samples collected as part of the Soil Geochemical Landscapes of the Conterminous United States Project. At each site, three samples were collected from: 1) the top 5 centimeters of soil, 2) the A horizon, and 3) the C horizon. Each sample at a given site was documented in the field using a standardized field sheet with annotations of measurements and observations carried out by the sampling crews. The samples were prepared at the U.S. Geological Survey’s lab in Denver, CO, where splits were taken to send for chemical and mineralogical analyses. All the results of the chemical and mineralogical analyses were stored in spreadsheets and then organized in three final tables, which are the ones presented along with this report.</procdesc>
+<procdate>2007 through 2013</procdate>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Federico Solano</cntper>
+<cntorg>USGS Midwest Area</cntorg>
+</cntperp>
+<cntpos>Physical Science Technician</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>12201 Sunrise Valley Drive$Mail Stop 954</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192-0002</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>703-648-6335</cntvoice>
+<cntfax>703-648-6252</cntfax>
+<cntemail>fsolanoc@usgs.gov</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>point</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>4857</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.0001</latres>
+<longres>0.0001</longres>
+<geogunit>decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>World Geodetic System 1984</horizdn>
+<ellips>WGS 84</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<overview>
+<eaover>
+The Top5 table contains the chemical analyses for soil samples collected from a depth of 0-5 centimeters at the sampling sites. Although no mineralogy analyses were performed for this sample medium, empty fields for mineralogy are also included that coincide with columns for the A and C horizons. These fields are included for users who wish to paste the tables vertically and still have corresponding fields with the other reported levels. Samples lost or not collected for this particular sample type are reported as N.S. Precision for geochemical analyses varies and it is indicated for each element.
+
+&gt;FIELD_NAME         FIELD_TYPE    UNITS       METHOD     FIELD_DESCRIPTION
+&gt;Top5_LabID         Text          n/a         n/a        Unique identifier assigned to each individual sample by the analyzing laboratory.
+&gt;SiteID             Integer       n/a         n/a        Unique identifier assigned to each individual sampling site.
+&gt;StateID            Text          n/a         n/a        Code for the state as established by NIST.
+&gt;Latitude           Number        n/a         n/a        Latitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum.
+&gt;Longitude          Number        n/a         n/a        Longitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum. Negative values indicate locations west of the Greenwich Meridian.
+&gt;CollDate           Date/Time     n/a         n/a        Date of collection of the sample, as reported in the field sheet, given as mm/dd/yyyy.
+&gt;LandCover1         Text          n/a         n/a        Primary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;LandCover2         Text          n/a         n/a        Secondary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;Top5_Depth         Text          cm          n/a        Depth or depth interval from which the sample was collected, in centimeters.
+&gt;Top5_Quartz        Text          wt. %       XRD        Quartz, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_K_fs      Text          wt. %       XRD        Total potassium feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_Plg       Text          wt. %       XRD        Total plagioclase, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_Flds      Text          wt. %       XRD        Total feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_14A       Text          wt. %       XRD        Total 14Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_10A       Text          wt. %       XRD        Total 10Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Kaolinit      Text          wt. %       XRD        Kaolinite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_Clay      Text          wt. %       XRD        Total clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Gibbsite      Text          wt. %       XRD        Gibbsite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Calcite       Text          wt. %       XRD        Calcite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Dolomite      Text          wt. %       XRD        Dolomite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Aragon        Text          wt. %       XRD        Aragonite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_Carb      Text          wt. %       XRD        Total carbonates, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Analcime      Text          wt. %       XRD        Analcime, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Heuland       Text          wt. %       XRD        Heulandite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Tot_Zeol      Text          wt. %       XRD        Total zeolites, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Gypsum        Text          wt. %       XRD        Gypsum, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Talc          Text          wt. %       XRD        Talc, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Hornbl        Text          wt. %       XRD        Hornblende and related amphiboles, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Serpent       Text          wt. %       XRD        Serpentine, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Hematite      Text          wt. %       XRD        Hematite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Goethite      Text          wt. %       XRD        Goethite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Pyroxene      Text          wt. %       XRD        Pyroxene, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Pyrite        Text          wt. %       XRD        Pyrite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Other         Text          wt. %       XRD        Other mineral phase(s), in percent by weight (wt.%), that were detected occasionally, determined from the interpretation of the XRD scan.
+&gt;Top5_Amorph        Text          wt. %       XRD        Amorphous, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;Top5_Ag            Text          mg/kg       ICP-MS     Silver (Ag), concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Al            Text          wt. %       ICP-AES    Aluminum (Al) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_As            Text          mg/kg       HYD-AA     Arsenic (As) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry after fusion of the sample in sodium peroxide and sodium hydroxide. Precision of one decimal place.
+&gt;Top5_Ba            Text          mg/kg       ICP-AES    Barium (Ba) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Be            Text          mg/kg       ICP-MS     Beryllium (Be) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Bi            Text          mg/kg       ICP-MS     Bismuth (Bi) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_C_Tot         Text          wt. %       COMBUSTION Empty field, since Total carbon (C) concentration, in percent by weight (wt.%), was not measured. Field included to facilitate vertical pasting of horizons.
+&gt;Top5_C_Inorg       Text          wt. %       XRD        Empty field, since Inorganic carbon (C) concentration, in percent by weight (wt.%), was not determined. Field included to facilitate vertical pasting of horizons.
+&gt;Top5_C_Org         Text          wt. %       DIFF       Empty field, since Organic carbon (C) concentration, in percent by weight (wt.%), was not determined.  Field included to facilitate vertical pasting of horizons.
+&gt;Top5_Ca            Text          wt. %       ICP-AES    Calcium (Ca) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Cd            Text          mg/kg       ICP-MS     Cadmium (Cd) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Ce            Text          mg/kg       ICP-MS     Cerium (Ce) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Co            Text          mg/kg       ICP-MS     Cobalt (Co) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Cr            Text          mg/kg       ICP-AES    Chromium (Cr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Cs            Text          mg/kg       ICP-MS     Cesium (Cs) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Cu            Text          mg/kg       ICP-AES    Copper (Cu) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Fe            Text          wt. %       ICP-AES    Iron (Fe) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Ga            Text          mg/kg       ICP-MS     Gallium (Ga) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Hg            Text          mg/kg       CVAA       Mercury (Hg) concentration, in milligrams per kilogram (mg/kg), measured by cold-vapor atomic absorption spectrometry (CVAA) after digestion in HNO3 and HCl. Precision of two decimal places.
+&gt;Top5_In            Text          mg/kg       ICP-MS     Indium (In) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_K             Text          wt. %       ICP-AES    Potassium (K) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_La            Text          mg/kg       ICP-MS     Lanthanum (La) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Li            Text          mg/kg       ICP-AES    Lithium (Li) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Mg            Text          wt. %       ICP-AES    Magnesium (Mg) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Mn            Text          mg/kg       ICP-AES    Manganese (Mn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Mo            Text          mg/kg       ICP-MS     Molybdenum (Mo) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Na            Text          wt. %       ICP-AES    Sodium (Na) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Nb            Text          mg/kg       ICP-MS     Niobium (Nb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Ni            Text          mg/kg       ICP-AES    Nickel (Ni) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_P             Text          mg/kg       ICP-AES    Phosphorus (P) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_Pb            Text          mg/kg       ICP-MS     Lead (Pb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Rb            Text          mg/kg       ICP-MS     Rubidium (Rb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_S             Text          wt. %       ICP-AES    Sulfur (S) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Sb            Text          mg/kg       ICP-MS     Antimony (Sb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Sc            Text          mg/kg       ICP-MS     Scandium (Sc) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Se            Text          mg/kg       HYD-AA     Selenium (Se) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry after digestion of the sample in HNO3, HF, and HClO4. Precision of one decimal place.
+&gt;Top5_Sn            Text          mg/kg       ICP-MS     Tin (Sn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Sr            Text          mg/kg       ICP-AES    Strontium (Sr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Te            Text          mg/kg       ICP-MS     Tellurium (Te) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Th            Text          mg/kg       ICP-MS     Thorium (Th) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Ti            Text          wt. %       ICP-AES    Titanium (Ti) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;Top5_Tl            Text          mg/kg       ICP-MS     Thallium (Tl) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_U             Text          mg/kg       ICP-MS     Uranium (U) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_V             Text          mg/kg       ICP-AES    Vanadium (V) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;Top5_W             Text          mg/kg       ICP-MS     Tungsten (W) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Y             Text          mg/kg       ICP-MS     Yttrium (Y) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;Top5_Zn            Text          mg/kg       ICP-AES    Zinc (Zn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+</eaover>
+<eadetcit>http://pubs.usgs.gov/ds/801/pdf/ds801.pdf</eadetcit>
+</overview>
+<overview>
+<eaover>
+The A_Horizon table contains the results of the mineralogical determinations of major minerals and the results of the chemical analyses for the soil samples collected from the A horizon. N.D. indicates an undetected mineral phase. Samples lost or not collected for this particular level are reported as N.S. One decimal place is reported for all mineral phases. For the chemistry, it is variable as indicated for each element.
+
+&gt;FIELD_NAME      FIELD_TYPE        UNITS       METHOD     FIELD_DESCRIPTION
+&gt;A_LabID         Text              n/a         n/a        Unique identifier assigned to each individual sample by the analyzing laboratory.
+&gt;SiteID          Integer           n/a         n/a        Unique identifier assigned to each individual sampling site.
+&gt;StateID         Text              n/a         n/a        Code for the state as established by NIST.
+&gt;Latitude        Number            n/a         n/a        Latitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum.
+&gt;Longitude       Number            n/a         n/a        Longitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum. Negative values indicate locations west of the Greenwich Meridian.
+&gt;CollDate        Date/Time         n/a         n/a        Date of collection of the sample, as reported in the field sheet, given as mm/dd/yy.
+&gt;LandCover1      Text              n/a         n/a        Primary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;LandCover2      Text              n/a         n/a        Secondary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;A_Depth         Text              cm          n/a        Depth or depth interval from which the sample was collected, in centimeters.
+&gt;A_Quartz        Text              wt. %       XRD        Quartz, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_K_fs      Text              wt. %       XRD        Total potassium feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_Plag      Text              wt. %       XRD        Total plagioclase, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_Flds      Text              wt. %       XRD        Total feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_14A       Text              wt. %       XRD        Total 14Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_10A       Text              wt. %       XRD        Total 10Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Kaolinit      Text              wt. %       XRD        Kaolinite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_Clay      Text              wt. %       XRD        Total clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Gibbsite      Text              wt. %       XRD        Gibbsite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Calcite       Text              wt. %       XRD        Calcite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Dolomite      Text              wt. %       XRD        Dolomite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Aragon        Text              wt. %       XRD        Aragonite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_Carb      Text              wt. %       XRD        Total carbonates, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Analcime      Text              wt. %       XRD        Analcime, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Heuland       Text              wt. %       XRD        Heulandite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Tot_Zeol      Text              wt. %       XRD        Total zeolites, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Gypsum        Text              wt. %       XRD        Gypsum, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Talc          Text              wt. %       XRD        Talc, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Hornbl        Text              wt. %       XRD        Hornblende and related amphiboles, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Serpent       Text              wt. %       XRD        Serpentine, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Hematite      Text              wt. %       XRD        Hematite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Goethite      Text              wt. %       XRD        Goethite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Pyroxene      Text              wt. %       XRD        Pyroxene, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Pyrite        Text              wt. %       XRD        Pyrite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Other         Text              wt. %       XRD        Other mineral phase(s), in percent by weight (wt.%), that were detected occasionally, determined from the interpretation of the XRD scan.
+&gt;A_Amorph        Text              wt. %       XRD        Amorphous, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;A_Ag            Text              mg/kg       ICP-MS     Silver (Ag) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Al            Text              wt. %       ICP-AES    Aluminum (Al) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_As            Text              mg/kg       HYD-AA     Arsenic (As) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry (HYD-AA) after fusion of the sample in sodium peroxide and sodium hydroxide. Precision of one decimal place.
+&gt;A_Ba            Text              mg/kg       ICP-AES    Barium (Ba) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Be            Text              mg/kg       ICP-MS     Beryllium (Be) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Bi            Text              mg/kg       ICP-MS     Bismuth (Bi) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_C_Tot         Text              wt. %       COMBUSTION Total carbon (C) concentration, in percent by weight (wt.%), measured by combustion. Precision of two decimal places.
+&gt;A_C_Inorg       Text              wt. %       XRD        Inorganic carbon (C) concentration, in percent by weight (wt.%), reported as the result of stoichiometric calculation of carbon present in calcite, dolomite, and/or aragonite as determined by X-ray diffraction (XRD). The formula used was ((A_Calcite * 0.12)+(A_Dolomite * 0.1304)+(A_Aragon * 0.12)). Calculated values for a very small percentage of samples (less than 0.005%) were lower than 0 and are reported as N.D. (non-detect). Precision of one decimal place.
+&gt;A_C_Org         Text              wt. %       DIFF       Organic carbon (C) concentration, in percent by weight (wt.%), reported as the difference between measured total carbon (A_C_Tot) and inorganic carbon (A_C_Inorg). Precision of one decimal place if inorganic carbon is reported, two decimal places otherwise.
+&gt;A_Ca            Text              wt. %       ICP-AES    Calcium (Ca) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Cd            Text              mg/kg       ICP-MS     Cadmium (Cd) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Ce            Text              mg/kg       ICP-MS     Cerium (Ce) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Co            Text              mg/kg       ICP-MS     Cobalt (Co) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Cr            Text              mg/kg       ICP-AES    Chromium (Cr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Cs            Text              mg/kg       ICP-MS     Cesium (Cs) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Cu            Text              mg/kg       ICP-AES    Copper (Cu) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Fe            Text              wt. %       ICP-AES    Iron (Fe) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Ga            Text              mg/kg       ICP-MS     Gallium (Ga) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Hg            Text              mg/kg       CVAA       Mercury (Hg) concentration, in milligrams per kilogram (mg/kg), measured by cold-vapor atomic absorption spectrometry (CVAA) after digestion in HNO3 and HCl. Precision of two decimal places.
+&gt;A_In            Text              mg/kg       ICP-MS     Indium (In) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_K             Text              wt. %       ICP-AES    Potassium (K) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_La            Text              mg/kg       ICP-MS     Lanthanum (La) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Li            Text              mg/kg       ICP-AES    Lithium (Li) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Mg            Text              wt. %       ICP-AES    Magnesium (Mg) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Mn            Text              mg/kg       ICP-AES    Manganese (Mn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Mo            Text              mg/kg       ICP-MS     Molybdenum (Mo) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Na            Text              wt. %       ICP-AES    Sodium (Na) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Nb            Text              mg/kg       ICP-MS     Niobium (Nb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Ni            Text              mg/kg       ICP-AES    Nickel (Ni) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_P             Text              mg/kg       ICP-AES    Phosphorus (P) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_Pb            Text              mg/kg       ICP-MS     Lead (Pb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Rb            Text              mg/kg       ICP-MS     Rubidium (Rb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_S             Text              wt. %       ICP-AES    Sulfur (S) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Sb            Text              mg/kg       ICP-MS     Antimony (Sb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Sc            Text              mg/kg       ICP-MS     Scandium (Sc) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Se            Text              mg/kg       HYD-AA     Selenium (Se) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry (HYD-AA) after digestion of the sample in HNO3, HF, and HClO4. Precision of one decimal place.
+&gt;A_Sn            Text              mg/kg       ICP-MS     Tin (Sn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Sr            Text              mg/kg       ICP-AES    Strontium (Sr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Te            Text              mg/kg       ICP-MS     Tellurium (Te) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Th            Text              mg/kg       ICP-MS     Thorium (Th) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Ti            Text              wt. %       ICP-AES    Titanium (Ti) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;A_Tl            Text              mg/kg       ICP-MS     Thallium (Tl) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_U             Text              mg/kg       ICP-MS     Uranium (U) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_V             Text              mg/kg       ICP-AES    Vanadium (V) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;A_W             Text              mg/kg       ICP-MS     Tungsten (W) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Y             Text              mg/kg       ICP-MS     Yttrium (Y) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;A_Zn            Text              mg/kg       ICP-AES    Zinc (Zn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+</eaover>
+<eadetcit>http://pubs.usgs.gov/ds/801/pdf/ds801.pdf</eadetcit>
+</overview>
+<overview>
+<eaover>
+The C_Horizon table contains the results of the mineralogical determinations of major minerals and the results of the chemical analyses for the soil samples collected from the C horizon.  N.D. indicates an undetected mineral phase. Samples lost or not collected for this particular level are reported as N.S.
+
+&gt;FIELD_NAME      FIELD_TYPE        UNITS       METHOD     FIELD_DESCRIPTION
+&gt;C_LabID         Text              n/a         n/a        Unique identifier assigned to each individual sample by the analyzing laboratory.
+&gt;SiteID          Integer           n/a         n/a        Unique identifier assigned to each individual sampling site.
+&gt;StateID         Text              n/a         n/a        Code for the state as established by NIST.
+&gt;Latitude        Number            n/a         n/a        Latitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum.
+&gt;Longitude       Number            n/a         n/a        Longitude coordinate of a sample site, reported in decimal degrees, with WGS-84 datum. Negative values indicate locations west of the Greenwich Meridian.
+&gt;CollDate        Date/Time         n/a         n/a        Date of collection of the sample, as reported in the field sheet, given as mm/dd/yy.
+&gt;LandCover1      Text              n/a         n/a        Primary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;LandCover2      Text              n/a         n/a        Secondary land cover classification from the National Land Cover Database 1992 Classification System.
+&gt;C_Depth         Text              cm          n/a        Depth or depth interval from which the sample was collected, in centimeters.
+&gt;C_Quartz        Text              wt. %       XRD        Quartz, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_K_fs      Text              wt. %       XRD        Total potassium feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_Plag      Text              wt. %       XRD        Total plagioclase, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_Flds      Text              wt. %       XRD        Total feldspar, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_14A       Text              wt. %       XRD        Total 14Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_10A       Text              wt. %       XRD        Total 10Å clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Kaolinit      Text              wt. %       XRD        Kaolinite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_Clay      Text              wt. %       XRD        Total clays, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Gibbsite      Text              wt. %       XRD        Gibbsite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Calcite       Text              wt. %       XRD        Calcite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Dolomite      Text              wt. %       XRD        Dolomite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Aragon        Text              wt. %       XRD        Aragonite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_Carb      Text              wt. %       XRD        Total carbonates, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Analcime      Text              wt. %       XRD        Analcime, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Heuland       Text              wt. %       XRD        Heulandite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Tot_Zeol      Text              wt. %       XRD        Total zeolites, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Gypsum        Text              wt. %       XRD        Gypsum, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Talc          Text              wt. %       XRD        Talc, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Hornbl        Text              wt. %       XRD        Hornblende and related amphiboles, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Serpent       Text              wt. %       XRD        Serpentine, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Hematite      Text              wt. %       XRD        Hematite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Goethite      Text              wt. %       XRD        Goethite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Pyroxene      Text              wt. %       XRD        Pyroxene, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Pyrite        Text              wt. %       XRD        Pyrite, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Other         Text              wt. %       XRD        Other mineral phase(s), in percent by weight (wt.%), that were detected occasionally, determined from the interpretation of the XRD scan.
+&gt;C_Amorph        Text              wt. %       XRD        Amorphous, in percent by weight (wt.%), determined from the interpretation of the XRD scan.
+&gt;C_Ag            Text              mg/kg       ICP-MS     Silver (Ag) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Al            Text              wt. %       ICP-AES    Aluminum (Al) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_As            Text              mg/kg       HYD-AA     Arsenic (As) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry (HYD-AA) after fusion of the sample in sodium peroxide and sodium hydroxide. Precision of one decimal place.
+&gt;C_Ba            Text              mg/kg       ICP-AES    Barium (Ba) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Be            Text              mg/kg       ICP-MS     Beryllium (Be) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Bi            Text              mg/kg       ICP-MS     Bismuth (Bi) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_C_Tot         Text              wt. %       COMBUSTION Total carbon (C) concentration, in percent by weight (wt.%), measured by combustion. Precision of two decimal places.
+&gt;C_C_Inorg       Text              wt. %       XRD        Inorganic carbon (C) concentration, in percent by weight (wt.%), reported as the result of stoichiometric calculation of carbon present in calcite, dolomite, and/or aragonite as determined by X-ray diffraction (XRD). The formula used was ((C_Calcite * 0.12)+(C_Dolomite * 0.1304)+(C_Aragon * 0.12)). Calculated values for a very small percentage of samples (less than 0.025%) were lower than 0 and are reported as N.D. (non-detect). Precision of one decimal place.
+&gt;C_C_Org         Text              wt. %       DIFF       Organic carbon (C) concentration, in percent by weight (wt.%), reported as the difference between measured total carbon (C_C_Tot) and inorganic carbon (C_C_Inorg). Precision of one decimal place if inorganic carbon is reported, two decimal places otherwise.
+&gt;C_Ca            Text              wt. %       ICP-AES    Calcium (Ca) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Cd            Text              mg/kg       ICP-MS     Cadmium (Cd) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Ce            Text              mg/kg       ICP-MS     Cerium (Ce) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Co            Text              mg/kg       ICP-MS     Cobalt (Co) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Cr            Text              mg/kg       ICP-AES    Chromium (Cr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Cs            Text              mg/kg       ICP-MS     Cesium (Cs) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Cu            Text              mg/kg       ICP-AES    Copper (Cu) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Fe            Text              wt. %       ICP-AES    Iron (Fe) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Ga            Text              mg/kg       ICP-MS     Gallium (Ga) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Hg            Text              mg/kg       CVAA       Mercury (Hg) concentration, in milligrams per kilogram (mg/kg), measured by cold-vapor atomic absorption spectrometry (CVAA) after digestion in HNO3 and HCl. Precision of two decimal places.
+&gt;C_In            Text              mg/kg       ICP-MS     Indium (In) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_K             Text              wt. %       ICP-AES    Potassium (K) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_La            Text              mg/kg       ICP-MS     Lanthanum (La) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Li            Text              mg/kg       ICP-AES    Lithium (Li) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Mg            Text              wt. %       ICP-AES    Magnesium (Mg) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Mn            Text              mg/kg       ICP-AES    Manganese (Mn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Mo            Text              mg/kg       ICP-MS     Molybdenum (Mo) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Na            Text              wt. %       ICP-AES    Sodium (Na) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Nb            Text              mg/kg       ICP-MS     Niobium (Nb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Ni            Text              mg/kg       ICP-AES    Nickel (Ni) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_P             Text              mg/kg       ICP-AES    Phosphorus (P) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_Pb            Text              mg/kg       ICP-MS     Lead (Pb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Rb            Text              mg/kg       ICP-MS     Rubidium (Rb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_S             Text              wt. %       ICP-AES    Sulfur (S) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Sb            Text              mg/kg       ICP-MS     Antimony (Sb) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Sc            Text              mg/kg       ICP-MS     Scandium (Sc) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Se            Text              mg/kg       HYD-AA     Selenium (Se) concentration, in milligrams per kilogram (mg/kg), measured by hydride generation atomic absorption spectrometry (HYD-AA) after digestion of the sample in HNO3, HF, and HClO4. Precision of one decimal place.
+&gt;C_Sn            Text              mg/kg       ICP-MS     Tin (Sn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Sr            Text              mg/kg       ICP-AES    Strontium (Sr) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Te            Text              mg/kg       ICP-MS     Tellurium (Te) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Th            Text              mg/kg       ICP-MS     Thorium (Th) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Ti            Text              wt. %       ICP-AES    Titanium (Ti) concentration, in percent by weight (wt.%), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of two decimal places.
+&gt;C_Tl            Text              mg/kg       ICP-MS     Thallium (Tl) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_U             Text              mg/kg       ICP-MS     Uranium (U) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_V             Text              mg/kg       ICP-AES    Vanadium (V) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+&gt;C_W             Text              mg/kg       ICP-MS     Tungsten (W) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Y             Text              mg/kg       ICP-MS     Yttrium (Y) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-mass spectrometry (ICP-MS) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one decimal place.
+&gt;C_Zn            Text              mg/kg       ICP-AES    Zinc (Zn) concentration, in milligrams per kilogram (mg/kg), measured by inductively coupled plasma-atomic emission spectrometry (ICP-AES) after a near-total digestion in a mixture of HCl, HNO3, HClO4, and HF. Precision of one unit.
+</eaover>
+<eadetcit>http://pubs.usgs.gov/ds/801/pdf/ds801.pdf</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>David B Smith</cntper>
+<cntorg>USGS Rocky Mountain Area</cntorg>
+</cntperp>
+<cntpos>Researcg Geologist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Box 25046 Denver Federal Center Mail Stop 973</address>
+<city>Denver</city>
+<state>CO</state>
+<postal>80225-0046</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>303-236-1849</cntvoice>
+<cntfax>303-236-3200</cntfax>
+<cntemail>dsmith@usgs.gov</cntemail>
+</cntinfo>
+</distrib>
+<resdesc>U.S. Geological Survey Data Series 801</resdesc>
+<distliab>
+This database, identified as DS ???, has been approved for release and publication by the Director of the USGS. Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review.
+
+These data are released on the condition that neither the U.S. Geological Survey (USGS) nor the United States Government may be held liable for any damages resulting from authorized or unauthorized use. The USGS makes no warranties, either expressed or implied as to any other matter, whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user.
+
+Any use of trade, product or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Geological Survey.
+
+Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Microsoft Excel (.xls)</formname>
+<formcont>geochemical and mineralogical sample locations and analyses</formcont>
+<filedec>no compression applied</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_2a_Top5_18Sept2013.xls</networkr>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_3a_Ahorizon_18Sept2013.xls</networkr>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_4a_Chorizon_18Sept2013.xls</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>Tab-delimited text</formname>
+<formcont>geochemical and mineralogical sample locations and analyses</formcont>
+<filedec>no compression applied</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_2b_Top5_18Sept2013.txt</networkr>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_3b_Ahorizon_18Sept2013.txt</networkr>
+<networkr>http://pubs.usgs.gov/ds/801/downloads/Appendix_4b_Chorizon_18Sept2013.txt</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>OGC WMS</formname>
+<formvern>1.1.1</formvern>
+<formcont>geochemical and mineralogical sample locations and analyses</formcont>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://mrdata.usgs.gov/services/ds801?</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<digform>
+<digtinfo>
+<formname>OGC WFS</formname>
+<formvern>1.0.0</formvern>
+<formcont>geochemical and mineralogical sample locations and analyses</formcont>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://mrdata.usgs.gov/services/ds801?</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>none</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20131101</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Federico Solano</cntper>
+<cntorg>USGS Midwest Area</cntorg>
+</cntperp>
+<cntpos>Physical Science Technician</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>12201 Sunrise Valley Drive$Mail Stop 954</address>
+<city>Reston</city>
+<state>VA</state>
+<postal>20192-0002</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>703-648-6335</cntvoice>
+<cntfax>703-648-6252</cntfax>
+<cntemail>fsolanoc@usgs.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<metac>none</metac>
+<metuc>none</metuc>
+</metainfo>
+</metadata>

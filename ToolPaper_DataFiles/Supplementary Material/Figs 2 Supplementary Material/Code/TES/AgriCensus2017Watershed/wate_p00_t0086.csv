@@ -1,0 +1,110 @@
+86,"t","Watershed: Released July 25, 2019, by the National Agricultural Statistics Service (NASS), Agricultural Statistics Board, U.S. Department of Agriculture."
+86,"t","Table 1.  Summary by Hydrologic Unit Code: 2017 and 2012 (continued)"
+86,"t","[For meaning of abbreviations and symbols, see introductory text.]"
+86,"h","","","","","","","",""
+86,"h","","","","","","","",""
+86,"h","","","H111401","H111401","H111402","H111402","H111403","H111403"
+86,"h","","","","","","","",""
+86,"h","Item","","2017","2012","2017","2012","2017","2012"
+86,"h","","","","","","","",""
+86,"d","FARMS AND LAND IN FARMS","",,,,,,
+86,"d","","",,,,,,
+86,"d","Farms","number",14702,15322,4076,4172,12125,12292
+86,"d","Land in farms","acres",4062972,4157192,1108065,1006534,2372906,2461010
+86,"d","","",,,,,,
+86,"d","LAND USE AND PRACTICES","",,,,,,
+86,"d","","",,,,,,
+86,"d","Total cropland","farms",8842,9325,2330,2389,7197,7688
+86,"d","","acres",1042479,990890,394535,340618,689715,733210
+86,"d","  Harvested cropland","farms",7926,8377,2008,2045,6268,6914
+86,"d","","acres",784430,770321,315651,285821,541562,587063
+86,"d","  Other pasture and grazing land that could have been used","",,,,,,
+86,"d","   for crops without additional improvement","farms",834,869,217,207,715,721
+86,"d","","acres",94237,99812,32214,23364,56582,72116
+86,"d","  Cropland idle or used for cover crops or soil-improvement","",,,,,,
+86,"d","   but not harvested and not pastured or grazed","farms",1119,885,376,362,994,782
+86,"d","","acres",96317,70430,36042,25906,62405,48761
+86,"d","  Cropland on which all crops failed","",,,,,,
+86,"d","   or were abandoned","farms",287,523,85,80,241,358
+86,"d","","acres",44503,39406,6324,4392,13671,19368
+86,"d","  Cropland in summer fallow (see text)","farms",339,95,107,50,389,83
+86,"d","","acres",22992,10921,4304,1135,15495,5902
+86,"d","Total woodland","farms",6543,6713,1947,1963,5393,5369
+86,"d","","acres",728285,823808,248367,203236,437493,443998
+86,"d","  Woodland pastured","farms",4298,4686,878,950,2975,3092
+86,"d","","acres",370216,491099,45830,45193,172275,183471
+86,"d","  Woodland not pastured","farms",3038,2873,1345,1331,3028,2922
+86,"d","","acres",358069,332709,202537,158043,265218,260527
+86,"d","Permanent pasture and rangeland, other than cropland","",,,,,,
+86,"d"," and woodland pastured","farms",10903,11687,2985,2996,8558,8739
+86,"d","","acres",2162017,2184609,402313,410071,1100693,1178784
+86,"d","Land in farmsteads, homes, buildings, livestock facilities,","",,,,,,
+86,"d"," ponds, roads, wasteland, etc.","farms",7089,8258,2114,2461,6264,7223
+86,"d","","acres",130191,157885,62850,52609,145005,105018
+86,"d","Irrigated land","farms",367,328,238,207,392,304
+86,"d","","acres",42128,34745,59253,49696,37319,23860
+86,"d","  Harvested cropland","farms",298,272,205,191,294,256
+86,"d","","acres",38205,32231,58431,48779,33717,20757
+86,"d","  Pastureland and other land","farms",99,72,34,17,107,65
+86,"d","","acres",3923,2514,822,917,3602,3103
+86,"d","Cropland on which no-till practices were used","farms",342,478,136,138,363,452
+86,"d","","acres",23063,35049,31582,35774,22359,27043
+86,"d","Cropland on which reduced tillage, excluding","",,,,,,
+86,"d"," no till, practices were used (see text)","farms",200,196,90,68,148,156
+86,"d","","acres",34066,23959,79119,36046,82508,56616
+86,"d","FERTILIZERS AND CHEMICALS","",,,,,,
+86,"d","","",,,,,,
+86,"d","Commercial fertilizer, lime, and soil conditioners","",,,,,,
+86,"d"," used","farms",4117,3744,1267,1228,3114,3101
+86,"d","","acres treated",622264,509856,245548,227301,394202,388993
+86,"d","Manure used","farms",1224,1081,448,441,947,859
+86,"d","","acres treated",140110,107071,67400,50866,85944,64671
+86,"d","Organic fertilizer used (see text)","farms",264,"(NA)",85,"(NA)",235,"(NA)"
+86,"d","","acres",17499,"(NA)",5959,"(NA)",13773,"(NA)"
+86,"d","Acres treated to control -","",,,,,,
+86,"d","  Insects","farms",1090,777,461,438,976,879
+86,"d","","acres",185569,111858,149770,97821,196804,144106
+86,"d","  Weeds, grass, or brush","farms",4151,4027,1029,1133,2635,2720
+86,"d","","acres",883906,707595,273369,255059,530343,444584
+86,"d","  Nematodes","farms",21,57,19,39,43,77
+86,"d","","acres",3805,4005,4475,4215,3651,4580
+86,"d","  Diseases in crops and orchards","farms",155,159,90,124,133,141
+86,"d","","acres",57002,20864,44846,32926,34549,24001
+86,"d","  Chemicals used to control growth, thin fruit, ripen,","",,,,,,
+86,"d","   or defoliate","farms",60,142,65,89,68,85
+86,"d","","acres on which used",16188,11669,45930,39244,35043,16797
+86,"d","SELECTED CROPS","",,,,,,
+86,"d","","",,,,,,
+86,"d","Corn, all","farms",89,95,87,78,84,77
+86,"d","","acres",53009,40970,49446,48727,45664,44068
+86,"d","Soybeans, for beans","farms",138,99,107,92,68,87
+86,"d","","acres",46996,39748,81564,53272,34714,36988
+86,"d","Small grains (wheat, oats, barley, rye)","farms",121,228,25,71,79,126
+86,"d","","acres",53547,70750,13094,28756,35295,60980
+86,"d","Cotton, all","farms",16,8,27,23,30,22
+86,"d","","acres",8937,1583,18149,12513,48407,15163
+86,"d","Rice","farms",2,4,11,7,1,1
+86,"d","","acres","(D)","(D)",5577,7909,"(D)","(D)"
+86,"d","Land in vegetables (see text)","farms",133,108,126,99,150,127
+86,"d","","acres",455,"(D)",570,536,546,516
+86,"d","Land in orchards (see text)","farms",719,749,182,174,340,248
+86,"d","","acres",36608,34617,7889,7963,4721,5432
+86,"d","Nursery, greenhouse, floriculture, and sod (see text)","farms",52,51,35,40,61,57
+86,"d","","acres",7227,5743,"(D)","(D)",362,869
+86,"d","All other crops (other than those listed above)","farms",7481,7975,1749,1819,5957,6625
+86,"d","","acres",578373,580860,146101,138071,373970,433280
+86,"d","LIVESTOCK AND POULTRY","",,,,,,
+86,"d","","",,,,,,
+86,"d","Cattle and calves inventory","farms",9947,10142,2495,2381,7533,7608
+86,"d","","number",757862,662961,217507,195113,495969,428991
+86,"d","Hogs and pigs inventory","farms",422,331,118,70,356,223
+86,"d","","number",61504,54583,9689,3515,4021,2033
+86,"d","Sheep and lambs inventory (see text)","farms",404,305,50,46,340,218
+86,"d","","number",11924,9951,841,804,5577,3988
+86,"d","Total horses and ponies inventory","farms",4157,4644,1320,1488,3335,3601
+86,"d","","number",22062,27456,8093,13647,17594,20890
+86,"d","Goats, all inventory","farms",997,909,192,247,867,812
+86,"d","","number",16799,15780,2252,3179,10947,13089
+86,"d","Chickens, all inventory (see text)","farms",2092,1669,570,504,1634,1141
+86,"d","","number",34784987,31192167,14822284,14574443,30456253,22297540
+86,"c",""
